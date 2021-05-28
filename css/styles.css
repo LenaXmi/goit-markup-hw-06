@@ -875,7 +875,7 @@ footer .container {
   position: relative;
 }
 
-.form-field:not(:last-child) {
+.modal-form .form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -893,8 +893,11 @@ footer .container {
 .form-field input {
   width: 448px;
   height: 40px;
+  padding-left: 32px;
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  box-shadow: none;
 }
 
 .form-field textarea {
@@ -939,7 +942,7 @@ footer .container {
   text-align: center;
   padding: 10px 32px;
   margin: auto;
-
+  margin-top: 30px;
   min-width: 200px;
   background-color: var(--main-accent-color);
   color: var(--main-background-color);
@@ -954,13 +957,14 @@ footer .container {
 
 .form-icon {
   position: absolute;
-  top: 26px;
+
+  top: 28px;
   left: 12px;
 }
 
-/* .form-input:hover {
+.form-input:focus-within {
   border-color: var(--main-accent-color);
-} */
+}
 .form-field:focus-within .form-icon {
   fill: var(--main-accent-color);
 }
