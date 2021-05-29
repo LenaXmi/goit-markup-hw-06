@@ -561,16 +561,23 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="subscription">
           <b>Подпишитесь на рассылку</b>
-          <label for=""><input type="text" /></label>
-          <button type="submit">Подписаться</button>
+          <div>
+            <label for=""><input type="text" placeholder="E-mail" /></label>
+            <button class="subscription-btn" type="submit">
+              Подписаться
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#iconsend"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
         <form class="modal-form">
           <div class="form-field">
             <label for="username">Имя</label>
@@ -612,16 +619,27 @@
               id="comment"
               cols="30"
               placeholder="Введите текст"
+              class="comment"
             ></textarea>
           </div>
           <div class="policy">
-            <input type="checkbox" name="policy" id="agreement" />
+            <input
+              class="checkbox-hidden"
+              type="checkbox"
+              name="policy"
+              id="agreement"
+            />
             <label for="agreement"
-              >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="terms" href="">Условия договора </a>
+              <svg class="checkbox-icon" width="16" height="15">
+                <use href="./images/symbol-defs.svg#iconcheck"></use>
+              </svg>
             </label>
           </div>
-          <div></div>
-          <button class="submit-btn" type="submit">Отправить</button>
+          <div class="btn-flex">
+            <button class="submit-btn" type="submit">Отправить</button>
+          </div>
         </form>
 
         <button class="modal-btn" data-modal-close type="button">
