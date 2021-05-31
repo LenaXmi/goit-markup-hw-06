@@ -84,7 +84,7 @@ img {
   text-decoration: none;
 }
 
-.first-half {
+span {
   color: var(--main-accent-color);
 }
 
@@ -125,7 +125,6 @@ margin-left: 50px;
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--main-accent-color);
-  outline: none;
 }
 
 .site-nav .current-link {
@@ -166,7 +165,6 @@ margin-left: 50px;
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--main-accent-color);
-  outline: none;
 }
 
 .current-link {
@@ -256,7 +254,7 @@ margin-left: 50px;
 .filters button:focus {
   color: var(--main-background-color);
   background-color: var(--main-accent-color);
-  outline: none;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -357,7 +355,6 @@ margin-left: 50px;
 .grid-link:focus .overlay-text {
   opacity: 1;
   transform: translateY(0);
-  outline: none;
 }
 
 .grid-item {
@@ -576,7 +573,6 @@ address {
 .main-address:hover,
 :focus {
   color: var(--main-accent-color);
-  outline: none;
 }
 
 .footer-contacts {
@@ -596,7 +592,6 @@ address {
 .footer-contacts:hover,
 :focus {
   color: var(--main-accent-color);
-  outline: none;
 }
 
 /* Vector graphics */
@@ -678,7 +673,7 @@ address {
 .social-link a:focus {
   color: var(--main-background-color);
   background-color: var(--main-accent-color);
-  outline: none;
+
   border-radius: 50%;
 }
 
@@ -718,7 +713,6 @@ address {
 .effect:focus {
   border-color: var(--main-accent-color);
   color: var(--main-accent-color);
-  outline: none;
 }
 footer .container {
   display: flex;
@@ -776,7 +770,6 @@ footer .container {
 
 .join-social a:focus {
   background-color: var(--main-accent-color);
-  outline: none;
 }
 
 .join-social-icon {
