@@ -1083,6 +1083,7 @@ footer .container {
 }
 .checkbox-hidden:checked + .check-box {
   background-image: url(../images/iconcheck.svg);
+  background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--main-accent-color);
   border-color: var(--main-accent-color);
