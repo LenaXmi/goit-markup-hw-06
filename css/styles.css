@@ -872,6 +872,7 @@ footer .container {
 
   min-width: 528px;
   min-height: 581px;
+  padding: 40px;
 
   background-color: var(--main-background-color);
 
@@ -907,8 +908,7 @@ footer .container {
 }
 
 .form-title {
-  padding-top: 40px;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -991,6 +991,7 @@ footer .container {
 .terms {
   color: var(--main-accent-color);
   text-decoration-color: var(--main-accent-color);
+  box-shadow: none;
 }
 
 .submit-btn {
@@ -1032,8 +1033,9 @@ footer .container {
   left: 12px;
 }
 
-.form-input:focus-within {
+.form-input:focus {
   border-color: var(--main-accent-color);
+  outline: none;
 }
 .form-field:focus-within .form-icon {
   fill: var(--main-accent-color);
@@ -1041,6 +1043,7 @@ footer .container {
 
 .comment:focus-within {
   border-color: var(--main-accent-color);
+  outline: none;
 }
 
 .checkbox-hidden {
